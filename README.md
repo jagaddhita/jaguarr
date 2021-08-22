@@ -1,3 +1,3 @@
 All hail buildbot!
 
-Original repo from `https://github.com/rzlamrr/build-bot/` `@rzalmrr`. All credit(s) goes to him.
+Original repo from <a href="https://github.com/rzlamrr/build-bot"<a/> @rzalmrr. All credit(s) goes to him.
