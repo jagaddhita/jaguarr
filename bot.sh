@@ -2,7 +2,7 @@
 
 #sync with configs
 source bot.conf
-source build/envsetup.sh
+. build/envsetup.sh
 
 export BUILD_FINISHED=false
 
@@ -23,8 +23,8 @@ if [ $? -eq 0 ]
 then
        	echo "Bringup Done... Starting Build\(brunch\)"
 	sendMessage "Selesai menyiapkan... Memulai build."
-	brunch $DEBICE | tee build.log
-#	mka aex | tee build.log
+        mka nad
+#	brunch $DEBICE | tee build.log
 	#catch brunch error
 	if [ $? -eq 0 ]
 	then
