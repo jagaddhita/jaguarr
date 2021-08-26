@@ -29,7 +29,7 @@ then
 	if [ $? -eq 0 ]
 	then
 		echo "build DONEEE"
-		sendMessage "build SELESAI!"
+		sendMessage "build RAMPUNG!"
 
 		BUILD_FINISHED=true
 		if [ $BUILD_FINISHED = true  ] ; then
